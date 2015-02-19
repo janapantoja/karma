@@ -60,6 +60,10 @@ div {
 
 .content {
     padding: 0 15px;
+    margin: 0 auto;
+	width: 970px;
+	vertical-align: baseline;
+	box-sizing: border-box;
 }
 
 /* Navigation Section */
@@ -69,8 +73,6 @@ div {
 }
 
 .top-navigation .content {
-	margin: 0 auto;
-	width: 970px;
 	height: 70px;
 }
 
@@ -101,3 +103,48 @@ div {
 .top-navigation .logo {
 	height: 70px;
 }
+
+/* Central Image */
+
+.introduction {
+	background-image: url('../Images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto; /*to fix margin-top weirdness*/
+
+}
+
+.introduction h3 {
+color: white;
+text-align: center;
+font-size: 1.563 rem;
+margin-top: 1.25rem
+}
+
+.introduction h1 {
+margin-top: 18rem;
+font-size: 3rem;
+color: white;
+text-align: center;
+}
+
+.big-button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin: 0 auto;
+    display: block;
+    background-color: #F15A29;
+    border-color: #F15A29;
+    cursor: pointer;
+    color: white;
+    margin-top: 1.5rem;
+    width: 9rem;
+    font-size: 1rem;
+}
+
