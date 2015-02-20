@@ -209,7 +209,7 @@ text-align: center;
 .social .icons li {
 	border-radius: 1.25rem;
 	width: 2.5rem;
-	height: 1rem;
+	height: 1.7rem;
 	display: inline-block;
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
@@ -218,9 +218,11 @@ text-align: center;
 
 }
 
-/*.social .icons > li:hover {
+
+.social .icons li:hover {
     cursor: pointer;
-}*/
+    color: #333333
+}
 
 .social .twitter {
 	color: #55acee;
@@ -234,7 +236,7 @@ text-align: center;
 	color: #3f729b;
 }
 
-/*.social .copy {
+.social .copy {
     font-size: 0.9rem;
     font-weight: 300;
-    color: #838994;*/
+    color: #838994;
