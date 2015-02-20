@@ -70,6 +70,9 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .content {
@@ -146,5 +149,40 @@ text-align: center;
     margin-top: 1.5rem;
     width: 9rem;
     font-size: 1rem;
+}
+
+
+/*3 icons*/
+
+div {
+	display: block;
+}
+
+.cases .content {
+	margin-top: 8rem;
+	text-align: center;
+
+}
+
+.cases h2 {
+	font-size: 3rem;
+	margin: 2rem 0 3rem;
+	font-weight: 300;
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    float: left;
+    /* styles to assist with debugging */
+    /*border: 1px solid black;*/
+/*    box-sizing: border-box;
+    height: 4em;*/
+}
+
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
 }
 
