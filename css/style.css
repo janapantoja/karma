@@ -154,12 +154,16 @@ text-align: center;
 
 /*3 icons*/
 
-div {
-	display: block;
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
 }
 
 .cases .content {
 	margin-top: 8rem;
+	padding: none;
+	color: 1d1e21;
 	text-align: center;
 
 }
@@ -180,7 +184,7 @@ div {
     height: 4em;*/
 }
 
-.cases h3 {
+.cases .devices h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
@@ -195,25 +199,11 @@ div {
 	text-align: center;
 }
 
-.social .content {
-
-
-}
 
 .social hr {
 	border: 0;
 	border-top: 1px solid #eaebec;
 	margin: 1.313rem 0;
-}
-
-
-.social h5 {
-	display: block;
-	-webkit-margin-before: 1.67em;
-	-webkit-margin-after: 1.67em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-
 }
 
 .social .icons li {
@@ -228,6 +218,10 @@ div {
 
 }
 
+/*.social .icons > li:hover {
+    cursor: pointer;
+}*/
+
 .social .twitter {
 	color: #55acee;
 }
@@ -240,3 +234,7 @@ div {
 	color: #3f729b;
 }
 
+/*.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;*/
